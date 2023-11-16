@@ -16,7 +16,9 @@ Contenu du repositiry:
 Un notebook d'exploration des données
 Un notebook de pré-traitement des documents et d'entraînement des modèles supervisés et non supervisés
 La présentation du projet (PDF)
+
 Github API
+https://github.com/mariatot/Stackoverflow_tags_prediction/tree/main
 
 API link
 https://tags-pred.streamlit.app/
