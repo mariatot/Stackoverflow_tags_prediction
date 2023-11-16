@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import os
-
+import BeautifulSoup4
 import tensorflow as tf
 import tensorflow_hub as hub
 import nltk
@@ -15,7 +15,7 @@ nltk.download('wordnet')
 @st.cache_resource
 
 def clean_html(text):
-    from bs4 import BeautifulSoup
+    from BeautifulSoup4 import BeautifulSoup
     soup = BeautifulSoup(text, "html5lib")
     for sent in soup(['style', 'script']):
         sent.decompose()
