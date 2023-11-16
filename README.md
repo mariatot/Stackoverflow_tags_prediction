@@ -12,12 +12,6 @@ Mission
 - Création de fonctions et classes nécessaires à l'implémentation de l'API
 - Développement d'une API et la mettre en production
 
-Contenu du repository:
-- model de vectorisation TFIDF
-- model de prédiction supervisée
-- model de binarisation
-- requirements
-
 Github API
 https://github.com/mariatot/Stackoverflow_tags_prediction/tree/main
 
