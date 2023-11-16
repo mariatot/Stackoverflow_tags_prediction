@@ -6,6 +6,10 @@ import os
 import tensorflow as tf
 import tensorflow_hub as hub
 import nltk
+try:
+    from bs4 import BeautifulSoup
+except :
+    from BeautifulSoup import BeautifulSoup
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
@@ -14,7 +18,6 @@ nltk.download('wordnet')
 @st.cache_resource
 
 def clean_html(text):
-    from beautifulsoup4 import BeautifulSoup
     soup = BeautifulSoup(text, "html5lib")
     for sent in soup(['style', 'script']):
         sent.decompose()
