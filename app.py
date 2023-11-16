@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import os
-import BeautifulSoup
+import BeautifulSoup4
 import tensorflow as tf
 import tensorflow_hub as hub
 import nltk
